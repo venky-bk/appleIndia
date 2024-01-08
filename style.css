@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navdiv{
+    position: absolute;
+    width: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.747) ;
+    width: 100%;
+    height: 50px;
+    margin-right: 16%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar ul li {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    font-style: normal;
+    font-weight: lighter;
+    padding: 13px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white ;
+
+}
+
+.navbar ul{
+      align-content: center;
+}
+
+
+.logo{
+    margin-left: 10%;
+}
+
+.top-right{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-right1{
+    margin-right: 69px;
+}
+
+.back-video{
+    background-color: black;
+}
+
+
+.gallery {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+  }
+
+  .gallery img {
+    width: 700px;
+    height: 580px;
+    object-fit: cover;
+    margin: 10px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+
+.footer{
+    margin-top: 164%;
+
+}
+
+.para{
+    margin: 0% 15% 5% 15%;
+    padding-top: 5%;
+    font-size: smaller;
+}
